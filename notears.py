@@ -18,7 +18,7 @@ sm.add_edges_from([
 print(sm.edges)
 """
 
-data = pd.read_csv('student-por.csv', delimiter=',')
+data = pd.read_csv('merged.csv', delimiter=',')
 # print(data.columns)
 drop_col = ['school', 'age', 'famsize', 'Pstatus', 'Medu', 'Fedu', 'Mjob', 'Fjob', 'reason', 'guardian', 'traveltime',
             'nursery']
