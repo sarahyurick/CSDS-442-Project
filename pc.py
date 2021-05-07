@@ -242,7 +242,7 @@ def pc(suffStat, alpha, labels, indepTest):
 
 
 if __name__ == '__main__':
-    file_path = 'student-por.csv'
+    file_path = 'https://raw.githubusercontent.com/sarahyurick/datasets/master/alc_merged.csv'
     image_path = 'pc_DAG.png'
 
     data = pd.read_csv(file_path)
